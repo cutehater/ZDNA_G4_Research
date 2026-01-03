@@ -2,7 +2,7 @@
 
 ## Project overview
 
-This repository contains the complete implementation and experimental framework for my Bachelor's thesis research project:
+This repository contains the complete implementation and experimental framework for my Bachelor's thesis:
 
 "Optimizing Applications of Deep Learning Models for Genomics Problems to the Subject Area of Secondary Structures in Stem Cells"
 
@@ -60,7 +60,7 @@ These structures are rare (~0.3–2% of the genome) and may be cell-type-specifi
 
 - 8 convolutional layers with residual connections
 - Kernel size 3, various dilations and strides
-- Activation: ReLU
+- Activation: LeakyReLU
 - Optimizer: AdamW (LR=2e-4, weight decay=5e-5)
 - Scheduler: ReduceLROnPlateau
 
@@ -89,3 +89,18 @@ Features were ranked by mean absolute deviation across methods. Top omics featur
 - Omics data: ChIP-Atlas (ATAC-seq, Histone ChIP-seq, TF ChIP-seq, etc.)
 - Z-DNA labels: Kouzine dataset
 - G4 labels: EndoQuad database (confidence ≥ 4)
+
+## Project structure
+
+ZDNA_G4_Research/
+├── data/                                 # Processed datasets (sparse)
+├── docs/                                 # Thesis paper and presentation
+├── interpretation/                       # Interpretation notebooks and results
+├── models/                               # Saved models (including baseline, final and intermediate ones)
+├── .gitignore
+├── CNN_model_G4_Experiments.ipynb        # Main notebook for G4 experiments
+├── CNN_model_G4_Optuning.ipynb           # Notebook with tuning hyperparameters for G4 model before manual experiments
+├── CNN_model_ZDNA.ipynb                  # Main notebook for ZDNA experiments
+├── DataPreparator.ipynb                  # Notebook for preparing datasets
+├── OmicsLoader.ipynb                     # Notebook for loading omics data from ChIP-Atlas
+├── README.md
