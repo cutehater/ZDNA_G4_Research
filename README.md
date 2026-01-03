@@ -6,7 +6,7 @@ This repository contains the complete implementation and experimental framework 
 
 "Optimizing Applications of Deep Learning Models for Genomics Problems to the Subject Area of Secondary Structures in Stem Cells"
 
-This project bridges computational genomics, deep learning, and stem cell biology to advance understanding of non-canonical DNA structures in development and disease. It focuses on predicting non-canonical DNA secondary structures—specifically Z-DNA and G-quadruplexes (G4)—in pluripotent stem cells using convolutional neural networks (CNNs) with integrated multi-omics data and explainable AI (xAI) interpretation.
+This project bridges computational genomics, deep learning, and stem cell biology to advance understanding of non-canonical DNA structures in development and disease. It focuses on predicting non-canonical DNA secondary structures — specifically Z-DNA and G-quadruplexes (G4) — in pluripotent stem cells using convolutional neural networks (CNNs) with integrated multi-omics data and explainable AI (xAI) interpretation.
 
 ## Research context
 
