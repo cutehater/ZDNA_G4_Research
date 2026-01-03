@@ -92,6 +92,7 @@ Features were ranked by mean absolute deviation across methods. Top omics featur
 
 ## Project structure
 
+```text
 ZDNA_G4_Research/
 ├── data/                                 # Processed datasets (sparse)
 ├── docs/                                 # Thesis paper and presentation
@@ -104,3 +105,4 @@ ZDNA_G4_Research/
 ├── DataPreparator.ipynb                  # Notebook for preparing datasets
 ├── OmicsLoader.ipynb                     # Notebook for loading omics data from ChIP-Atlas
 ├── README.md
+```
